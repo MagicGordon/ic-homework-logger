@@ -1,0 +1,18 @@
+{
+  "canisters": {
+    "logger": {
+      "main": "TextLogger.mo",
+      "type": "motoko"
+    },
+    "unlimitedLogger": {
+      "main": "UnlimitedLogger.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "vessel sources"
+    }
+  }
+}
